@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>UnrealReplayReader.Benchmark</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\UnrealReplayReader.FortniteMinimal\UnrealReplayReader.FortniteMinimal.csproj" />
+    <ProjectReference Include="..\UnrealReplayReader.Fortnite\UnrealReplayReader.Fortnite.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Replays\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Replays\Chapter4_Season5.replay" />
+    <Content Include="Replays\Chapter4_Season5.replay">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

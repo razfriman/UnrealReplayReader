@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealReplayReader.Benchmark", "UnrealReplayReader.Benchmark\UnrealReplayReader.Benchmark.csproj", "{37F08AC3-D4EC-4E85-8BD3-91A30ED7C356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealReplayReader", "UnrealReplayReader\UnrealReplayReader.csproj", "{640FA834-99F2-472D-8D47-3EC046BD1103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealReplayReader.Fortnite", "UnrealReplayReader.Fortnite\UnrealReplayReader.Fortnite.csproj", "{68B40583-4923-402B-A92A-3AAEB2C7C358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealReplayReader.FortniteMinimal", "UnrealReplayReader.FortniteMinimal\UnrealReplayReader.FortniteMinimal.csproj", "{85CAEBAF-52AD-43CD-8BA0-BEBB8766B4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealReplayReader.Tests", "UnrealReplayReader.Tests\UnrealReplayReader.Tests.csproj", "{E65536D4-0BEF-406F-9993-895E5746524B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D4135D-20AB-4854-9A5D-FB55E9892E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D4135D-20AB-4854-9A5D-FB55E9892E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D4135D-20AB-4854-9A5D-FB55E9892E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D4135D-20AB-4854-9A5D-FB55E9892E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F08AC3-D4EC-4E85-8BD3-91A30ED7C356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F08AC3-D4EC-4E85-8BD3-91A30ED7C356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F08AC3-D4EC-4E85-8BD3-91A30ED7C356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F08AC3-D4EC-4E85-8BD3-91A30ED7C356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640FA834-99F2-472D-8D47-3EC046BD1103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640FA834-99F2-472D-8D47-3EC046BD1103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640FA834-99F2-472D-8D47-3EC046BD1103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640FA834-99F2-472D-8D47-3EC046BD1103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B40583-4923-402B-A92A-3AAEB2C7C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B40583-4923-402B-A92A-3AAEB2C7C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B40583-4923-402B-A92A-3AAEB2C7C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B40583-4923-402B-A92A-3AAEB2C7C358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CAEBAF-52AD-43CD-8BA0-BEBB8766B4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CAEBAF-52AD-43CD-8BA0-BEBB8766B4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CAEBAF-52AD-43CD-8BA0-BEBB8766B4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CAEBAF-52AD-43CD-8BA0-BEBB8766B4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65536D4-0BEF-406F-9993-895E5746524B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65536D4-0BEF-406F-9993-895E5746524B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65536D4-0BEF-406F-9993-895E5746524B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65536D4-0BEF-406F-9993-895E5746524B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
