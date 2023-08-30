@@ -39,7 +39,7 @@ public static class HandlePlayerState
         playerData.FinisherOrDowner = model.FinisherOrDowner ?? playerData.FinisherOrDowner;
         playerData.Distance = model.Distance ?? playerData.Distance;
         playerData.RebootCounter = model.RebootCounter ?? playerData.RebootCounter;
-        playerData.UniqueId = model.UniqueId?.ToLower() ?? playerData.UniqueId;
+        playerData.UniqueId = model.UniqueID?.ToLower() ?? playerData.UniqueId;
         playerData.BotUniqueId = model.BotUniqueId?.ToLower() ?? playerData.BotUniqueId;
         playerData.PlatformUniqueNetId = model.PlatformUniqueNetId?.ToLower() ?? playerData.PlatformUniqueNetId;
         playerData.PlayerNamePrivate = model.PlayerNamePrivate ?? playerData.PlayerNamePrivate;
