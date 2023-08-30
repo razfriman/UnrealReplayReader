@@ -9,7 +9,7 @@ public record PlayerStateExport : ExportModel
     public ActorGuid? FinisherOrDowner { get; set; }
     public float? Distance { get; set; }
     public uint? RebootCounter { get; set; }
-    public string? UniqueId { get; set; }
+    public string? UniqueID { get; set; }
     public string? BotUniqueId { get; set; }
     public string? PlatformUniqueNetId { get; set; }
     public string? PlayerNamePrivate { get; set; }
@@ -86,7 +86,7 @@ public record PlayerStateExport : ExportModel
             AddProperty(x => x.Distance, (model, reader) => model.Distance = reader.ReadSingle());
             AddProperty(x => x.Platform, (model, reader) => model.Platform = reader.ReadFString());
             AddProperty(x => x.PartyOwnerUniqueId, (model, reader) => model.PartyOwnerUniqueId = reader.ReadNetId());
-            AddProperty(x => x.UniqueId, (model, reader) => model.UniqueId = reader.ReadNetId());
+            AddProperty(x => x.UniqueID, (model, reader) => model.UniqueID = reader.ReadNetId());
             AddProperty(x => x.PlatformUniqueNetId, (model, reader) => model.PlatformUniqueNetId = reader.ReadNetId());
             AddProperty(x => x.BotUniqueId, (model, reader) => model.BotUniqueId = reader.ReadNetId());
             AddProperty(x => x.PlayerNamePrivate, (model, reader) => model.PlayerNamePrivate = reader.ReadFString());
